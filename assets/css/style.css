@@ -799,8 +799,33 @@ body {
   position: relative;
   width: 100%;
 }
+.all-news-page .multiselects .multiselect-wrapper .multiselect-input {
+  background: #FFFFFF;
+  border: 1px solid #5C6C80;
+  border-radius: 8px;
+  padding: 10px 10px;
+}
 .all-news-page .multiselects .multiselect-wrapper .multiselect-list {
   width: 100%;
+}
+.all-news-page .multiselects .multiselect-wrapper .multiselect-list .multiselect-text {
+  font-size: 16px;
+}
+.all-news-page .multiselects .input-group {
+  border-radius: 8px;
+  background: #FFFFFF;
+  border: 1px solid #5C6C80;
+  overflow: hidden;
+}
+.all-news-page .multiselects .input-group .input-group-prepend {
+  border: none;
+}
+.all-news-page .multiselects .input-group .input-group-prepend .input-group-text {
+  background: rgba(0, 0, 0, 0) !important;
+  border: none;
+}
+.all-news-page .multiselects .input-group .input-group-prepend input {
+  border: none;
 }
 .all-news-page .news-cards .new-content-body {
   background: #fff;

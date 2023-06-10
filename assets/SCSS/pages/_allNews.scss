@@ -1,12 +1,46 @@
 .all-news-page {
 
     .multiselects {
+
         .multiselect-wrapper {
             position: relative;
             width: 100%;
 
+            .multiselect-input {
+                background: #FFFFFF;
+                border: 1px solid #5C6C80;
+                border-radius: 8px;
+                padding: 10px 10px;
+            }
+
             .multiselect-list {
                 width: 100%;
+
+                .multiselect-text {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .input-group {
+            border-radius: 8px;
+            background: #FFFFFF;
+            border: 1px solid #5C6C80;
+            overflow: hidden;
+
+            .input-group-prepend {
+                border: none;
+
+
+                .input-group-text {
+                    background: #00000000 !important;
+                    border: none;
+
+                }
+
+                input {
+                    border: none;
+                }
             }
         }
 
