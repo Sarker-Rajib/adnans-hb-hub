@@ -255,6 +255,28 @@
                     }
                 }
             }
+
+            .trending-videos,
+            .trending-podcasts {
+
+                .trendVideo,
+                .trendpodcast {
+                    padding-bottom: 80px;
+
+                    .swiper-btn {
+                        display: flex;
+                        align-items: center;
+                        width: auto;
+                        background: #FFF;
+                        position: absolute;
+                        top: calc(100% - 40px);
+
+                        &::after {
+                            display: none;
+                        }
+                    }
+                }
+            }
         }
 
         .paginate {
