@@ -803,7 +803,7 @@ body {
   background: #FFFFFF;
   border: 1px solid #5C6C80;
   border-radius: 8px;
-  padding: 10px 10px;
+  padding: 15px 10px;
   margin: 0;
 }
 .all-news-page .multiselects .multiselect-wrapper .multiselect-list {
@@ -817,16 +817,17 @@ body {
   background: #FFFFFF;
   border: 1px solid #5C6C80;
   overflow: hidden;
-}
-.all-news-page .multiselects .input-group .input-group-prepend {
-  border: none;
+  padding: 5px;
 }
 .all-news-page .multiselects .input-group .input-group-prepend .input-group-text {
   background: rgba(0, 0, 0, 0) !important;
   border: none;
 }
-.all-news-page .multiselects .input-group .input-group-prepend input {
+.all-news-page .multiselects .input-group .search-input {
   border: none;
+}
+.all-news-page .multiselects .input-group .search-input:focus {
+  box-shadow: none;
 }
 .all-news-page .news-cards .new-content-body {
   background: #fff;

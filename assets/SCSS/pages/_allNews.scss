@@ -10,7 +10,7 @@
                 background: #FFFFFF;
                 border: 1px solid #5C6C80;
                 border-radius: 8px;
-                padding: 10px 10px;
+                padding: 15px 10px;
                 margin: 0;
             }
 
@@ -28,9 +28,9 @@
             background: #FFFFFF;
             border: 1px solid #5C6C80;
             overflow: hidden;
+            padding: 5px;
 
             .input-group-prepend {
-                border: none;
 
 
                 .input-group-text {
@@ -39,8 +39,13 @@
 
                 }
 
-                input {
-                    border: none;
+            }
+
+            .search-input {
+                border: none;
+
+                &:focus {
+                    box-shadow: none;
                 }
             }
         }
